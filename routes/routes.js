@@ -5,6 +5,7 @@ import { getAllPosts } from '../controller/getAllPost.controller.js';
 
 const router = express.Router();
 
+
 //get all post
 router.get("/", getAllPosts);
 
